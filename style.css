@@ -55,12 +55,12 @@ h1 {
 
 .page-body.happiness-page {
     background-color: antiquewhite;
-    background-image: url(images/happiness2-edit.jpg);
+    background-image: url(https://github.com/ErreurDeSyntaxe/odin-recipes/tree/main/images/happiness2-edit.jpg);
 }
 
 .page-body.powerpuff-page {
     background-color:indianred;
-    background-image: url(/images/powerpuffgirls2.jpg);
+    background-image: url(https://github.com/ErreurDeSyntaxe/odin-recipes/tree/main/images/images/powerpuffgirls2.jpg);
     background-size:cover;
 }
 
