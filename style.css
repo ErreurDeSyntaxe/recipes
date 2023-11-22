@@ -1,20 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 h1 {
-    color: darkgoldenrod;
+    color: ivory;
+    text-align: center;
 }
 
-
-li a {
-    background-color: white;
+.description {
+    color: ivory;
+    padding: 8px;
+    font-size: 22px;
 }
 
-a {
-    background-color: darksalmon;
+.let-it-be {
+    display: flex;
+    height: auto;
 }
 
-ol {
-    list-style: upper-roman;
+.citation {
+    text-align: justify;
 }
 
-ul {
-    list-style-type:square;
+.citation-author {
+    flex: 0;
+    margin-left: 20px;
+    align-self: flex-end;
+    font-size: 10px;
+}
+
+.page-body {
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    /* background-image: url(/images/background-image.svg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page-body.disaster-page {
+    background-color: darkcyan;
+    background-color: darkgray;
+    /* background-image: url(/images/disaster3.svg); */
+    background-size: cover;
+}
+
+.page-body.happiness-page {
+    background-color: antiquewhite;
+    background-image: url(images/happiness2-edit.jpg);
+}
+
+.page-body.powerpuff-page {
+    background-color:indianred;
+    background-image: url(/images/powerpuffgirls2.jpg);
+    background-size:cover;
+}
+
+.needs-a-background {
+    background-color: antiquewhite;
+}
+
+.lyrics {
+    text-align: center;
+    background-color:aqua;
+    border-radius: 8%;
+    color: blue;
+}
+
+.album {
+    /*What would happen if the margin was set to 800px?
+    Can you predict the outcome?
+    Implement that change to review your knowledge of flexbox*/
+    width: 90%;
+    /* margin: auto; */
+    
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.picture-card {
+    border-radius: 25px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    max-width: 20%;
+    min-width: 150px;
+}
+
+.picture-card img {
+    /* I'm not sure why I have to specify the width
+    for the images to show nicely. I thought they'd
+    take just the space in their div, but they explode
+    out of them and fill the page. */
+    max-width: 96%;
+    border-radius: 25%;
+}
+
+.hide-at-the-bottom {
+    color: transparent;
+    /* this hides the youtube link to Let it Be, by the Beatles */
 }
