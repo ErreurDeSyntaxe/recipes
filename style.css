@@ -49,18 +49,18 @@ h1 {
 .page-body.disaster-page {
     background-color: darkcyan;
     background-color: darkgray;
-    /* background-image: url(/images/disaster3.svg); */
+    /* background-image: url(images/disaster3.svg); */
     background-size: cover;
 }
 
 .page-body.happiness-page {
     background-color: antiquewhite;
-    background-image: url(https://github.com/ErreurDeSyntaxe/odin-recipes/tree/main/images/happiness2-edit.jpg);
+    background-image: url(images/happiness2-edit.jpg);
 }
 
 .page-body.powerpuff-page {
     background-color:indianred;
-    background-image: url(https://github.com/ErreurDeSyntaxe/odin-recipes/tree/main/images/images/powerpuffgirls2.jpg);
+    background-image: url(images/powerpuffgirls2.jpg);
     background-size:cover;
 }
 
