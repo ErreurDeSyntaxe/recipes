@@ -22,6 +22,7 @@ h1 {
 .let-it-be {
     display: flex;
     height: auto;
+    margin: 0px 20px;
 }
 
 .citation {
@@ -41,38 +42,32 @@ h1 {
     flex-direction: column;
     align-items: center;
     background-color: black;
-    /* background-image: url(/images/background-image.svg); */
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .page-body.disaster-page {
-    background-color: darkcyan;
     background-color: darkgray;
-    /* background-image: url(images/disaster3.svg); */
     background-size: cover;
 }
 
 .page-body.happiness-page {
     background-color: antiquewhite;
-    background-image: url(images/happiness2-edit.jpg);
 }
 
 .page-body.powerpuff-page {
     background-color:indianred;
-    background-image: url(images/powerpuffgirls2.jpg);
     background-size:cover;
 }
 
 .needs-a-background {
-    background-color: antiquewhite;
+    background-color: lightslategrey;
+    padding: 3px;
+    border-radius: 20px;
 }
 
 .lyrics {
     text-align: center;
-    background-color:aqua;
-    border-radius: 8%;
-    color: blue;
 }
 
 .album {
