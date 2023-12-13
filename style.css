@@ -1,111 +1,89 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
-h1 {
-    color: ivory;
-    text-align: center;
-}
-
-.description {
-    color: ivory;
-    padding: 8px;
-    font-size: 22px;
-}
-
-.let-it-be {
-    display: flex;
-    height: auto;
-    margin: 0px 20px;
-}
-
-.citation {
-    text-align: justify;
-}
-
-.citation-author {
-    flex: 0;
-    margin-left: 20px;
-    align-self: flex-end;
-    font-size: 10px;
-}
-
-.page-body {
-    background-color: darkslategray;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: black;
-    background-size: cover;
+.main-page {
+    background-image: url("images/background.jpg");
+    background-size: 100vw;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
-.page-body.disaster-page {
-    background-color: darkgray;
-    background-size: cover;
-}
-
-.page-body.happiness-page {
-    background-color: antiquewhite;
-}
-
-.page-body.powerpuff-page {
-    background-color:indianred;
-    background-size:cover;
-}
-
-.needs-a-background {
-    background-color: lightslategrey;
-    padding: 3px;
-    border-radius: 20px;
-}
-
-.lyrics {
+.main-page > h1 {
+    margin-top: 40px;
+    font-size: 50px;
+    color: gold;
     text-align: center;
 }
 
-.album {
-    /*What would happen if the margin was set to 800px?
-    Can you predict the outcome?
-    Implement that change to review your knowledge of flexbox*/
-    width: 90%;
-    /* margin: auto; */
-    
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.quotation {
+    background-color: grey;
+    width: 50vw;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto 20px auto;
 }
 
-.picture-card {
-    border-radius: 25px;
-    margin: 10px;
+.quotation-author {
+    text-align: right;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.recipe {
+    height: 500px;
+    width: 430px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
-    align-items: center;
-    background-color: whitesmoke;
-    padding: 10px;
-    max-width: 20%;
-    min-width: 150px;
+    justify-content: center;
+    font-size: 40px;
+    text-align: center;
 }
 
-.picture-card img {
-    /* I'm not sure why I have to specify the width
-    for the images to show nicely. I thought they'd
-    take just the space in their div, but they explode
-    out of them and fill the page. */
-    max-width: 96%;
-    border-radius: 25%;
+.first {
+    background-color: black;
+    color: white;
 }
 
-.hide-at-the-bottom {
+.second {
+    background-color: skyblue;
+    color: #FAE6BC;
+}
+
+.third {
+    background-color: pink;
+    color: purple
+}
+
+a > img {
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.footer {
+    margin-top: auto;
+    text-align: center;
+}
+
+.footer > a {
+    text-decoration: none;
     color: transparent;
-    /* this hides the youtube link to Let it Be, by the Beatles */
 }
