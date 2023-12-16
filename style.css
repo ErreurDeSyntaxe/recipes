@@ -80,9 +80,19 @@ main {
     height: 429px;
 }
 
-.footer {
-    margin-top: auto;
-    text-align: center;
+.info {
+    width: 60vw;
+    align-self: center;
+    border: 1px dashed red;
+}
+
+footer {
+    min-height: 30px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #424242;
 }
 
 .footer > a {
