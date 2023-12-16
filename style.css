@@ -4,7 +4,6 @@
     padding: 0;
     font-family: Philosopher, cursive, monospace;
     color: #CCCCCC;
-    border: 2px dashed red;
 }
 
 *,
@@ -39,11 +38,18 @@ h1 {
 .quotation {
     font-size: 40px;
     width: 80vw;
-    margin: 10px auto;
+    margin: 110px auto;
+    text-align: justify;
 }
 
 .quotation-author {
     text-align: right;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container {
@@ -51,6 +57,7 @@ h1 {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    width: 60vw;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -58,6 +65,7 @@ h1 {
 .recipe {
     height: 500px;
     width: 430px;
+    margin: 50px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -65,6 +73,11 @@ h1 {
     font-size: 40px;
     font-weight: 800;
     text-align: center;
+}
+
+.recipe > a > img {
+    width: 429px;
+    height: 429px;
 }
 
 .footer {
