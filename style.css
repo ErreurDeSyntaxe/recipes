@@ -30,6 +30,12 @@ h1 {
     text-align: center;
 }
 
+.centered {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .quotation {
     font-size: 40px;
     width: 80vw;
