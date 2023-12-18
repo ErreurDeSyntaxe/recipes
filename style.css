@@ -12,8 +12,13 @@
     box-sizing: inherit;
 }
 
+html {
+    font-size: 20px;
+}
+
 body {
     background-color: #4E4E4E;
+    min-height: 100vh;
 }
 
 .main-page {
@@ -25,24 +30,30 @@ body {
 h1 {
     margin-top: 40px;
     font-family: Philosopher, cursive, monospace;
-    font-size: 60px;
+    font-size: calc(3rem + 1vw);
     text-align: center;
 }
 
-.centered {
+.header-img {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: calc(18px + 1vh);
 }
 
-.quotation {
-    font-size: 40px;
-    width: 80vw;
+.header-img img {
+    width: 70vw;
+    min-width: 555px;
+}
+
+.description {
+    font-size: calc(1.5rem + 1vw);
+    max-width: 70vw;
+    /* max-width: calc(40ch + 12vw); */
     margin: 110px auto;
-    text-align: justify;
 }
 
 .quotation-author {
+    margin-top: calc(4px + 3vh);
     text-align: right;
 }
 
@@ -50,6 +61,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: calc(2rem + 1vw);
 }
 
 .container {
@@ -70,9 +82,31 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 40px;
-    font-weight: 800;
+    font-size: calc(2rem + 1vw);
+    font-weight: 400;
     text-align: center;
+}
+
+.recipe1 {
+    text-shadow: 4px 4px rgb(197, 185, 9);
+}
+.recipe2 {
+    text-shadow: 4px 4px red;
+}
+.recipe3 {
+    text-shadow: 4px 4px rgb(224, 27, 224);
+}
+.recipe4 {
+    text-shadow: 4px 4px black;
+}
+
+.recipe > a {
+    width: 429px;
+    height: 429px;
+}
+
+.recipe > p {
+    margin-bottom: 10px;
 }
 
 .recipe > a > img {
@@ -84,6 +118,22 @@ main {
     width: 60vw;
     align-self: center;
     border: 1px dashed red;
+    line-height: 1.5;
+}
+
+.info > div > div {
+    margin-bottom: 10px;
+}
+
+/* 
+The list-style property is defined in each html file.
+Death.html has
+padding: 10px;
+content: "\2625"; 
+This represent the Egyptian ankh
+*/
+ul {
+    list-style: none;
 }
 
 footer {
