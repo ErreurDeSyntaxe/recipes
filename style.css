@@ -12,8 +12,13 @@
     box-sizing: inherit;
 }
 
+::selection {
+    color: black;
+    background-color: hotpink;
+}
+
 html {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 body {
@@ -74,7 +79,7 @@ main {
     margin-bottom: auto;
 }
 
-.recipe {
+.recipe-card {
     height: 500px;
     width: 430px;
     margin: 50px;
@@ -87,29 +92,29 @@ main {
     text-align: center;
 }
 
-.recipe1 {
+.recipe-card1 {
     text-shadow: 4px 4px rgb(197, 185, 9);
 }
-.recipe2 {
+.recipe-card2 {
     text-shadow: 4px 4px red;
 }
-.recipe3 {
+.recipe-card3 {
     text-shadow: 4px 4px rgb(224, 27, 224);
 }
-.recipe4 {
+.recipe-card4 {
     text-shadow: 4px 4px black;
 }
 
-.recipe > a {
+.recipe-card > a {
     width: 429px;
     height: 429px;
 }
 
-.recipe > p {
+.recipe-card > p {
     margin-bottom: 10px;
 }
 
-.recipe > a > img {
+.recipe-card > a > img {
     width: 429px;
     height: 429px;
 }
