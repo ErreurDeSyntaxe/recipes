@@ -106,11 +106,6 @@ main {
     text-shadow: 4px 4px black;
 }
 
-/* .recipe-card > a {
-    width: 429px;
-    height: 429px;
-} */
-
 .recipe-card img {
     width: 429px;
     height: 429px;
@@ -123,8 +118,8 @@ main {
 .info {
     width: 60vw;
     align-self: center;
-    border: 1px dashed red;
     line-height: 1.5;
+    font-size: 1.7rem;
 }
 
 .info > div > div {
@@ -136,7 +131,7 @@ The list-style property is defined in each html file.
 Death.html has
 padding: 10px;
 content: "\2625"; 
-This represent the Egyptian ankh
+representing the Egyptian ankh
 */
 ul {
     list-style: none;
