@@ -143,8 +143,24 @@ padding: 10px;
 content: "\2625"; 
 representing the Egyptian ankh
 */
-ul {
-    list-style: none;
+
+.recipe-lists {
+    & h2 {
+        font-size: 3rem;
+    }
+    & ul {
+        list-style: none;
+        display: inline-block;
+        text-align: left;
+        font-size: 2rem;
+    }
+    & ol {
+        list-style: upper-roman;
+        display: inline-block;
+        text-align: left;
+        font-size: 2rem;
+    }
+    text-align: center;
 }
 
 footer {
