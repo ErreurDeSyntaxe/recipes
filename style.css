@@ -1,3 +1,4 @@
+/* OVERALL STYLING */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -25,7 +26,9 @@ body {
     background-color: #4E4E4E;
     min-height: 100vh;
 }
+/* OVERALL -- END */
 
+/* SHARED STYLING */
 .main-page {
     display: flex;
     flex-direction: column;
@@ -46,14 +49,12 @@ h1 {
 }
 
 .header-img img {
-    width: 70vw;
-    min-width: 555px;
+    width: max(150px, 70vw);
 }
 
 .description {
     font-size: calc(1.5rem + 1vw);
     max-width: 70vw;
-    /* max-width: calc(40ch + 12vw); */
     margin: 110px auto;
 }
 
@@ -93,7 +94,7 @@ main {
 }
 
 .recipe-card1 {
-    text-shadow: 4px 4px rgb(197, 185, 9);
+    text-shadow: 3px 3px rgb(197, 185, 9);
 }
 .recipe-card2 {
     text-shadow: 4px 4px red;
@@ -105,18 +106,18 @@ main {
     text-shadow: 4px 4px black;
 }
 
-.recipe-card > a {
+/* .recipe-card > a {
+    width: 429px;
+    height: 429px;
+} */
+
+.recipe-card img {
     width: 429px;
     height: 429px;
 }
 
 .recipe-card > p {
     margin-bottom: 10px;
-}
-
-.recipe-card > a > img {
-    width: 429px;
-    height: 429px;
 }
 
 .info {
@@ -144,6 +145,7 @@ ul {
 footer {
     min-height: 30px;
     margin-top: 30px;
+    margin-bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
