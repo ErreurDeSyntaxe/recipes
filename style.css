@@ -49,7 +49,17 @@ h1 {
 }
 
 .header-img img {
-    width: max(150px, 70vw);
+    width: max(150px, 60vw);
+}
+
+.bottom-img {
+    display: flex;
+    justify-content: center;
+    margin-top: calc(18px + 1vh);
+}
+
+.bottom-img img {
+    width: max(150px, 50vw);
 }
 
 .description {
