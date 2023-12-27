@@ -147,6 +147,7 @@ representing the Egyptian ankh
 .recipe-lists {
     & h2 {
         font-size: 3rem;
+        margin: 3.3rem 0;
     }
     & ul {
         list-style: none;
