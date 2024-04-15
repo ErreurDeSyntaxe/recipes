@@ -17,6 +17,45 @@
   background-color: hotpink;
 }
 
+/* TEMPORARY STYLING */
 img {
   width: 200px;
+}
+body {
+  margin: 40px;
+}
+
+/* LISTS STYLING */
+.ingredients-list {
+  list-style: none;
+}
+.ingredients-hardships {
+  li:before {
+    padding: 10px;
+    content: '\2756';
+  }
+}
+.ingredients-worry {
+  li:before {
+    padding: 10px;
+    content: '\2623';
+  }
+}
+.ingredients-evil {
+  li:before {
+    padding: 10px;
+    content: '\2622';
+  }
+}
+.ingredients-death {
+  li:before {
+    padding: 10px;
+    content: '\2625';
+  }
+}
+.steps-list {
+  list-style: upper-roman;
+  li {
+    margin-left: 30px;
+  }
 }
