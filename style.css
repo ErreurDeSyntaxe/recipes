@@ -25,6 +25,23 @@ body {
   margin: 40px;
 }
 
+/* QUOTATION STYLING */
+blockquote p {
+  padding: 16px;
+  background-color: #eee;
+  border-radius: 4px;
+}
+blockquote p::before {
+  content: '\201C';
+}
+blockquote p::after {
+  content: '\201D';
+}
+.quotation-author {
+  text-align: right;
+  margin-right: 16px;
+}
+
 /* LISTS STYLING */
 .ingredients-list {
   list-style: none;
