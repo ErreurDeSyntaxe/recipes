@@ -1,180 +1,22 @@
 /* OVERALL STYLING */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Philosopher, cursive, monospace;
-    color: #CCCCCC;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Philosopher, cursive, monospace;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 ::selection {
-    color: black;
-    background-color: hotpink;
+  color: black;
+  background-color: hotpink;
 }
 
-html {
-    font-size: 16px;
-}
-
-body {
-    background-color: #4E4E4E;
-    min-height: 100vh;
-}
-/* OVERALL -- END */
-
-/* SHARED STYLING */
-.main-page {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
-
-h1 {
-    margin-top: 40px;
-    font-family: Philosopher, cursive, monospace;
-    font-size: calc(3rem + 1vw);
-    text-align: center;
-}
-
-.header-img {
-    display: flex;
-    justify-content: center;
-    margin-top: calc(18px + 1vh);
-}
-
-.header-img img {
-    width: max(150px, 60vw);
-}
-
-.bottom-img {
-    display: flex;
-    justify-content: center;
-    margin-top: calc(18px + 1vh);
-}
-
-.bottom-img img {
-    width: max(150px, 50vw);
-}
-
-.description {
-    font-size: calc(1.5rem + 1vw);
-    max-width: 70vw;
-    margin: 110px auto;
-}
-
-.quotation-author {
-    margin-top: calc(4px + 3vh);
-    text-align: right;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: calc(2rem + 1vw);
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    width: 60vw;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.recipe-card {
-    height: 500px;
-    width: 430px;
-    margin: 50px;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: calc(2rem + 1vw);
-    font-weight: 400;
-    text-align: center;
-}
-
-.recipe-card1 {
-    text-shadow: 3px 3px rgb(197, 185, 9);
-}
-.recipe-card2 {
-    text-shadow: 4px 4px red;
-}
-.recipe-card3 {
-    text-shadow: 4px 4px rgb(224, 27, 224);
-}
-.recipe-card4 {
-    text-shadow: 4px 4px black;
-}
-
-.recipe-card img {
-    width: 429px;
-    height: 429px;
-}
-
-.recipe-card > p {
-    margin-bottom: 10px;
-}
-
-.info {
-    width: 60vw;
-    align-self: center;
-    line-height: 1.5;
-    font-size: 1.7rem;
-}
-
-.info > div > div {
-    margin-bottom: 10px;
-}
-
-/* 
-The list-style property is defined in each html file.
-Death.html has
-padding: 10px;
-content: "\2625"; 
-representing the Egyptian ankh
-*/
-
-.recipe-lists {
-    & h2 {
-        font-size: 3rem;
-        margin: 3.3rem 0;
-    }
-    & ul {
-        list-style: none;
-        display: inline-block;
-        text-align: left;
-        font-size: 2rem;
-    }
-    & ol {
-        list-style: upper-roman;
-        display: inline-block;
-        text-align: left;
-        font-size: 2rem;
-    }
-    text-align: center;
-}
-
-footer {
-    min-height: 30px;
-    margin-top: 30px;
-    margin-bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #424242;
-}
-
-.footer > a {
-    text-decoration: none;
-    color: black;
+img {
+  width: 200px;
 }
