@@ -46,9 +46,12 @@ body {
   margin: 40px auto;
   width: 800px;
 }
-/* .line-height {
+.line-height-large {
+  line-height: 1.3;
+}
+.line-height-small {
   line-height: 1.5;
-} */
+}
 
 /* HEADER STYLING */
 .header-stoicism {
