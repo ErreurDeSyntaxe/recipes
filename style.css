@@ -178,7 +178,7 @@ blockquote p::after {
 }
 .recipe {
   background-color: #78a083;
-  padding: 42px;
+  padding: 42px 42px 20px 42px;
   border-radius: 4px;
 }
 .img-recipe {
