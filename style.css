@@ -1,9 +1,30 @@
+/* Spacing Scale */
+
+/* Font Sizing Scale: Major Third */
+/* 61.04px 48.83px 39.06px 31.25px 25px 20px 16px 12.8px */
+
+/* Color Pelette */
+/* 
+Main: #78A083
+tints: #86aa8f #93b39c #a1bda8 #aec6b5 #bcd0c1
+shades: #6c9076 #608069 #54705c #48604f #3c5042
+
+Grey: #35374B
+tints: #494b5d #5d5f6f #727381 #868793 #9a9ba5
+shades: #303244 #2a2c3c #252735 #20212d #1b1c26
+
+Accent: #50727B
+tints: #628088 #738e95 #859ca3 #96aab0 #a8b9bd
+shades: #48676f #405b62 #385056 #30444a #28393e
+*/
+
 /* OVERALL STYLING */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: Philosopher, cursive, monospace;
+  color: #1b1c26;
 }
 
 *,
@@ -22,14 +43,55 @@ img {
   width: 200px;
 }
 body {
-  margin: 40px;
+  margin: 40px auto;
+  width: 800px;
+}
+
+/* HEADER STYLING */
+.header-stoicism {
+  margin-bottom: 72px;
+}
+.header-h1 {
+  font-size: 61.04px;
+  text-align: center;
+}
+.img-marcus-aurelius {
+  width: 720px;
+  margin: 48px auto;
+  display: block;
+}
+
+/* RECIPE CARD STYLING */
+.recipe-header {
+  font-size: 48.83px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.recipe-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 64px;
+  margin-bottom: 64px;
+}
+.recipe-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #78a083;
+  border-radius: 4px;
+  padding: 12px;
+}
+.recipe-para {
+  font-size: 39.06px;
 }
 
 /* QUOTATION STYLING */
 blockquote p {
   padding: 16px;
-  background-color: #eee;
+  background-color: #93b39c;
   border-radius: 4px;
+  font-size: 31.25px;
 }
 blockquote p::before {
   content: '\201C';
@@ -40,6 +102,23 @@ blockquote p::after {
 .quotation-author {
   text-align: right;
   margin-right: 16px;
+}
+
+/* MORE INFO STYLING */
+.more-info-header {
+  font-size: 39.06px;
+  margin-bottom: 24px;
+}
+.more-info-content {
+  font-size: 25px;
+}
+.biography,
+.meditations,
+.journaling {
+  background-color: #78a083;
+  padding: 42px;
+  border-radius: 4px;
+  margin-bottom: 64px;
 }
 
 /* LISTS STYLING */
@@ -75,4 +154,10 @@ blockquote p::after {
   li {
     margin-left: 30px;
   }
+}
+
+/* FOOTER STYLING */
+.page-footer {
+  text-align: center;
+  color: #5d5f6f;
 }
