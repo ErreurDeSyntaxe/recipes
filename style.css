@@ -174,10 +174,24 @@ blockquote p::after {
   background-color: #78a083;
   padding: 42px;
   border-radius: 4px;
+  margin-bottom: 48px;
 }
-
+.recipe {
+  background-color: #78a083;
+  padding: 42px;
+  border-radius: 4px;
+}
 .img-recipe {
   width: 540px;
   margin: 24px auto;
   display: block;
+}
+.ingredients-title,
+.steps-title {
+  margin-bottom: 12px;
+}
+.ingredients-list,
+.steps-list {
+  font-size: 20px;
+  margin-bottom: 24px;
 }
