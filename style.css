@@ -25,6 +25,9 @@ shades: #48676f #405b62 #385056 #30444a #28393e
   margin: 0;
   padding: 0;
   font-family: Philosopher, cursive, monospace;
+}
+
+body {
   color: #1b1c26;
 }
 
@@ -40,10 +43,6 @@ shades: #48676f #405b62 #385056 #30444a #28393e
 }
 
 /* SHARED STYLING */
-img {
-  width: 200px;
-  border-radius: 4px;
-}
 .home-page,
 .recipe-page {
   /* TODO: FIX THE MARGIN BUG */
@@ -69,6 +68,7 @@ img {
   width: 720px;
   margin: 48px auto;
   display: block;
+  border-radius: 4px;
 }
 
 /* RECIPE CARD STYLING */
@@ -91,15 +91,27 @@ img {
   background-color: #78a083;
   border-radius: 4px;
   padding: 12px;
+  box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.1);
 }
 .recipe-para {
   font-size: 39.06px;
 }
 .recipe-card-img {
   margin: 8px 0;
+  width: 200px;
+  border-radius: 4px;
+}
+.recipe-card-img:hover {
+  box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.3);
+}
+.recipe-card-img:active {
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 /* QUOTATION STYLING */
+.quotation-content {
+  box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.1);
+}
 blockquote p {
   padding: 16px;
   background-color: #93b39c;
@@ -115,9 +127,14 @@ blockquote p::after {
 .quotation-author {
   text-align: right;
   margin-right: 16px;
+  margin-top: 20px;
+  color: #5f6067;
 }
 
 /* MORE INFO STYLING */
+.more-info div {
+  box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.1);
+}
 .more-info-title {
   font-size: 31.25px;
   text-align: center;
@@ -128,7 +145,7 @@ blockquote p::after {
   margin-bottom: 24px;
 }
 .more-info-content {
-  font-size: 31.25px;
+  font-size: 25px;
 }
 .biography,
 .meditations,
@@ -196,16 +213,19 @@ blockquote p::after {
   padding: 42px;
   border-radius: 4px;
   margin-bottom: 48px;
+  box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.1);
 }
 .recipe {
   background-color: #78a083;
   padding: 42px 42px 20px 42px;
   border-radius: 4px;
+  box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.1);
 }
 .img-recipe {
   width: 540px;
   margin: 24px auto;
   display: block;
+  border-radius: 4px;
 }
 .ingredients-title,
 .steps-title,
@@ -219,7 +239,9 @@ blockquote p::after {
   margin-bottom: 24px;
 }
 
-.link-home {
+/* HOME BUTTON STYLING */
+.link-home:link,
+.link-home:visited {
   display: block;
   width: 64px;
   text-align: center;
@@ -232,4 +254,12 @@ blockquote p::after {
   color: #fff;
   padding: 16px 32px;
   border-radius: 4px;
+}
+.link-home:hover {
+  box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.1);
+  background-color: #93b39c;
+}
+.link-home:active {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+  background-color: #86aa8f;
 }
