@@ -1,7 +1,8 @@
 /* Spacing Scale */
+/* 2px 4px 8px 12px 16px 24px 32px 48px 64px 80px 96px 128px */
 
 /* Font Sizing Scale: Major Third */
-/* 61.04px 48.83px 39.06px 31.25px 25px 20px 16px 12.8px */
+/* 12.8px 16px 20px 25px 31.25px 39.06px 48.83px 61.04px */
 
 /* Color Pelette */
 /* 
@@ -41,6 +42,7 @@ shades: #48676f #405b62 #385056 #30444a #28393e
 /* SHARED STYLING */
 img {
   width: 200px;
+  border-radius: 4px;
 }
 .home-page,
 .recipe-page {
@@ -71,7 +73,7 @@ img {
 
 /* RECIPE CARD STYLING */
 .recipe-header {
-  font-size: 48.83px;
+  font-size: 39.06px;
   text-align: center;
   margin-bottom: 48px;
 }
@@ -93,13 +95,16 @@ img {
 .recipe-para {
   font-size: 39.06px;
 }
+.recipe-card-img {
+  margin: 8px 0;
+}
 
 /* QUOTATION STYLING */
 blockquote p {
   padding: 16px;
   background-color: #93b39c;
   border-radius: 4px;
-  font-size: 31.25px;
+  font-size: 25px;
 }
 blockquote p::before {
   content: '\201C';
@@ -114,7 +119,7 @@ blockquote p::after {
 
 /* MORE INFO STYLING */
 .more-info-title {
-  font-size: 48.83px;
+  font-size: 31.25px;
   text-align: center;
   margin-bottom: 48px;
 }
@@ -203,11 +208,28 @@ blockquote p::after {
   display: block;
 }
 .ingredients-title,
-.steps-title {
+.steps-title,
+.result-title {
+  font-size: 31.25px;
   margin-bottom: 12px;
 }
 .ingredients-list,
 .steps-list {
   font-size: 20px;
   margin-bottom: 24px;
+}
+
+.link-home {
+  display: block;
+  width: 64px;
+  text-align: center;
+  margin-top: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 32px;
+  text-decoration: none;
+  background-color: #78a083;
+  color: #fff;
+  padding: 16px 32px;
+  border-radius: 4px;
 }
