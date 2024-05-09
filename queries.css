@@ -1,0 +1,7 @@
+/* BELOW 864PX */
+@media (max-width: 54em) {
+  .home-page,
+  .recipe-page {
+    background-color: blue;
+  }
+}

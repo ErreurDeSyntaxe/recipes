@@ -27,6 +27,10 @@ shades: #48676f #405b62 #385056 #30444a #28393e
   font-family: Philosopher, cursive, monospace;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   color: #1b1c26;
 }
@@ -45,9 +49,14 @@ body {
 /* SHARED STYLING */
 .home-page,
 .recipe-page {
-  /* TODO: FIX THE MARGIN BUG */
-  margin: 40px auto;
-  width: 800px;
+  margin: 4.8rem auto;
+  max-width: 80rem;
+}
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
 }
 .line-height-large {
   line-height: 1.3;
@@ -58,31 +67,31 @@ body {
 
 /* HEADER STYLING */
 .header-stoicism {
-  margin-bottom: 72px;
+  margin-bottom: 7.2rem;
 }
 .header-h1 {
-  font-size: 61.04px;
+  font-size: 6.1rem;
   text-align: center;
 }
 .img-header {
-  width: 720px;
-  margin: 48px auto;
+  width: 72rem;
+  margin: 4.8rem auto;
   display: block;
   border-radius: 4px;
 }
 
 /* RECIPE CARD STYLING */
 .recipe-header {
-  font-size: 39.06px;
+  font-size: 3.9rem;
   text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 4.8rem;
 }
 .recipe-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 64px;
-  margin-bottom: 64px;
+  gap: 6.4rem;
+  margin-bottom: 6.4rem;
 }
 .recipe-card {
   display: flex;
@@ -90,33 +99,33 @@ body {
   align-items: center;
   background-color: #78a083;
   border-radius: 4px;
-  padding: 12px;
-  box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 1.2rem;
+  box-shadow: 0 2rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
 .recipe-para {
-  font-size: 39.06px;
+  font-size: 3.9rem;
 }
 .recipe-card-img {
-  margin: 8px 0;
-  width: 200px;
+  margin: 0.8rem 0;
+  width: 20rem;
   border-radius: 4px;
 }
 .recipe-card-img:hover {
-  box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.15);
 }
 .recipe-card-img:active {
-  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.7rem 1rem 0 rgba(0, 0, 0, 0.2);
 }
 
 /* QUOTATION STYLING */
 .quotation-content {
-  box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
 blockquote p {
-  padding: 16px;
+  padding: 1.6rem;
   background-color: #93b39c;
   border-radius: 4px;
-  font-size: 25px;
+  font-size: 2.5rem;
 }
 blockquote p::before {
   content: '\201C';
@@ -126,23 +135,23 @@ blockquote p::after {
 }
 .quotation-author {
   text-align: right;
-  margin-right: 16px;
-  margin-top: 20px;
+  margin-right: 1.6rem;
+  margin-top: 2rem;
   color: #5f6067;
 }
 
 /* MORE INFO STYLING */
 .more-info div {
-  box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
 .more-info-title {
-  font-size: 31.25px;
+  font-size: 3.1rem;
   text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 4.8rem;
 }
 .more-info-header {
-  font-size: 39.06px;
-  margin-bottom: 24px;
+  font-size: 3.9rem;
+  margin-bottom: 2.4rem;
 }
 .more-info-content {
   font-size: 25px;
@@ -151,9 +160,9 @@ blockquote p::after {
 .meditations,
 .journaling {
   background-color: #78a083;
-  padding: 42px;
+  padding: 4.2rem;
   border-radius: 4px;
-  margin-bottom: 64px;
+  margin-bottom: 6.4rem;
 }
 
 /* LISTS STYLING */
@@ -162,32 +171,32 @@ blockquote p::after {
 }
 .ingredients-hardships {
   li:before {
-    padding: 10px;
+    padding: 1rem;
     content: '\2756';
   }
 }
 .ingredients-worry {
   li:before {
-    padding: 10px;
+    padding: 1rem;
     content: '\2623';
   }
 }
 .ingredients-evil {
   li:before {
-    padding: 10px;
+    padding: 1rem;
     content: '\2622';
   }
 }
 .ingredients-death {
   li:before {
-    padding: 10px;
+    padding: 1rem;
     content: '\2625';
   }
 }
 .steps-list {
   list-style: upper-roman;
   li {
-    margin-left: 30px;
+    margin-left: 3rem;
   }
 }
 
@@ -208,58 +217,58 @@ blockquote p::after {
 
 /* RECIPE STYLING */
 .philosophy {
-  font-size: 25px;
+  font-size: 2.5rem;
   background-color: #78a083;
-  padding: 42px;
+  padding: 4.2rem;
   border-radius: 4px;
-  margin-bottom: 48px;
-  box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 4.8rem;
+  box-shadow: 0 2rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
 .recipe {
   background-color: #78a083;
-  padding: 42px 42px 20px 42px;
+  padding: 4.2rem 4.2rem 2rem 4.2rem;
   border-radius: 4px;
-  box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
 .img-recipe {
-  width: 540px;
-  margin: 24px auto;
+  width: 54rem;
+  margin: 2.4rem auto;
   display: block;
   border-radius: 4px;
 }
 .ingredients-title,
 .steps-title,
 .result-title {
-  font-size: 31.25px;
-  margin-bottom: 12px;
+  font-size: 3.1rem;
+  margin-bottom: 1.2rem;
 }
 .ingredients-list,
 .steps-list {
-  font-size: 20px;
-  margin-bottom: 24px;
+  font-size: 2rem;
+  margin-bottom: 2.4rem;
 }
 
 /* HOME BUTTON STYLING */
 .link-home:link,
 .link-home:visited {
   display: block;
-  width: 64px;
+  width: 6.4rem;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 8rem;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 32px;
+  margin-bottom: 3.2rem;
   text-decoration: none;
   background-color: #78a083;
   color: #fff;
-  padding: 16px 32px;
+  padding: 1.6rem 3.2rem;
   border-radius: 4px;
 }
 .link-home:hover {
-  box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1rem 1rem 0 rgba(0, 0, 0, 0.1);
   background-color: #93b39c;
 }
 .link-home:active {
-  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.1);
   background-color: #86aa8f;
 }
