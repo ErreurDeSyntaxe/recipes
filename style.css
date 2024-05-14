@@ -116,22 +116,39 @@ blockquote p::after {
   align-items: center;
   background-color: #846358;
   border-radius: 11px;
-  padding: 1.2rem;
+  padding: 2.4rem;
   box-shadow: 0 2rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
-.recipe-para {
+.recipe-card-heading {
   font-size: 3.9rem;
+  margin: 2rem 0;
 }
 .recipe-card a {
   display: grid;
 }
+.recipe-card-text {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+.recipe-card-recom {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 1.6rem;
+}
+.recipe-card-list {
+  list-style: none;
+  width: 80%;
+}
+.recipe-card-list-item {
+  font-size: 1.8rem;
+}
 .recipe-card-img {
-  margin: 0.8rem 0;
+  margin: 1.6rem 0;
   width: 20rem;
   border-radius: 11px;
   grid-row: 1 / -1;
   grid-column: 1 / -1;
-  transition: all 700ms;
+  transition: all 650ms;
 }
 .recipe-card-img-hidden {
   opacity: 0;
@@ -182,7 +199,7 @@ blockquote p::after {
 .ingredients-hardships {
   li:before {
     padding: 1rem;
-    content: '\2756';
+    content: '\2660';
   }
 }
 .ingredients-worry {
@@ -264,31 +281,33 @@ blockquote p::after {
 .hardships-page .philosophy,
 .hardships-page .recipe,
 .hardships-page .link-home {
-  background-color: #82A155;
+  background-color: #82a155;
+  border: 2px solid #82a155;
   color: #000;
 }
 .worry-page .philosophy,
 .worry-page .recipe,
 .worry-page .link-home {
-  background-color: #8B2F16;
+  background-color: #8b2f16;
+  border: 2px solid #8b2f16;
 }
 .death-page .philosophy,
 .death-page .recipe,
 .death-page .link-home {
   background-color: #212529;
+  border: 2px solid #212529;
 }
 .evil-page .philosophy,
 .evil-page .recipe,
 .evil-page .link-home {
   background-color: #0b7285;
+  border: 2px solid #0b7285;
 }
 
 /* HOME BUTTON STYLING */
 .link-home:link,
 .link-home:visited {
-  display: block;
   padding: 1.6rem 3.2rem;
-  /* background-color: #846358; */
   border-radius: 11px;
   width: 12rem;
   margin: 8rem auto 3.2rem auto;
@@ -296,12 +315,23 @@ blockquote p::after {
   text-align: center;
   text-decoration: none;
   font-size: 1.6rem;
+
+  display: block;
+  transition: all 300ms;
 }
-.link-home:hover {
-  box-shadow: 0px 1rem 1rem 0 rgba(0, 0, 0, 0.1);
-  background-color: #93b39c;
+.hardships-page .link-home:hover {
+  background-color: transparent;
+  color: #82a155;
 }
-.link-home:active {
-  box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.1);
-  background-color: #86aa8f;
+.worry-page .link-home:hover {
+  background-color: transparent;
+  color: #8b2f16;
+}
+.death-page .link-home:hover {
+  background-color: transparent;
+  color: #212529;
+}
+.evil-page .link-home:hover {
+  background-color: transparent;
+  color: #0b7285;
 }
