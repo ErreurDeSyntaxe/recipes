@@ -33,13 +33,13 @@ shades: #48676f #405b62 #385056 #30444a #28393e
 html {
   font-size: 62.5%;
   color: #eaddd7;
-  background-color: #f1f3f5;
 }
 
 /* SHARED STYLING */
 .home-page,
 .recipe-page {
   margin: 4.8rem 0;
+  background-color: #f1f3f5;
 }
 .container {
   max-width: 90rem;
