@@ -30,7 +30,6 @@ shades: #48676f #405b62 #385056 #30444a #28393e
 *::after {
   box-sizing: inherit;
 }
-
 html {
   font-size: 62.5%;
   color: #eaddd7;
@@ -39,13 +38,10 @@ html {
 /* SHARED STYLING */
 .home-page,
 .recipe-page {
-  margin: 4.8rem auto;
-  max-width: 80rem;
+  margin: 4.8rem 0;
 }
 .container {
-  /* 1140px */
-  max-width: 120rem;
-  padding: 0 3.2rem;
+  max-width: 90rem;
   margin: 0 auto;
 }
 .line-height-large {
@@ -65,7 +61,7 @@ html {
   color: #43302b;
 }
 .page-header-img {
-  width: 72rem;
+  max-width: 72rem;
   margin: 4.8rem auto;
   display: block;
   border-radius: 11px;
@@ -108,6 +104,8 @@ blockquote p::after {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 6.4rem;
+
+  padding: 3.2rem;
   margin-bottom: 6.4rem;
 }
 .recipe-card {
@@ -144,7 +142,7 @@ blockquote p::after {
 }
 .recipe-card-img {
   margin: 1.6rem 0;
-  width: 20rem;
+  max-width: 20rem;
   border-radius: 11px;
   grid-row: 1 / -1;
   grid-column: 1 / -1;
