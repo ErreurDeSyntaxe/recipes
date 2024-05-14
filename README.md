@@ -6,7 +6,7 @@ during the Foundations course to practice new skills and to have fun.
 # Preview
 
 <div align="center">
-    <img src="./images/project-preview.png">
+    <img src="./images/project-preview.jpg">
 </div>
 
 # Links
@@ -53,3 +53,6 @@ shot at making a "recipe" website.
 The new angle is the philosophy of stoicism. It is something that has become 
 meaningful, helpful, and dear to me. Building a website around stoicism will 
 help me understand the philosophy better.  
+
+I revisited this project many times to sharpen my skills and test my knowledge.
+It has changed a lot since its first version.
