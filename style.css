@@ -74,7 +74,7 @@ html {
 }
 blockquote p {
   padding: 1.6rem;
-  background-color: #846358;
+  background-color: #43302b;
   border-radius: 11px;
   font-size: 2.5rem;
 }
@@ -113,7 +113,7 @@ blockquote p::after {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #846358;
+  background-color: #43302b;
   border-radius: 11px;
   padding: 2.4rem;
   box-shadow: 0 2rem 1rem 0 rgba(0, 0, 0, 0.1);
@@ -185,7 +185,7 @@ blockquote p::after {
 .biography,
 .meditations,
 .journaling {
-  background-color: #846358;
+  background-color: #43302b;
   padding: 4.2rem;
   border-radius: 11px;
   margin-bottom: 6.4rem;
@@ -254,7 +254,7 @@ blockquote p::after {
   box-shadow: 0 2rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
 .recipe {
-  background-color: #846358;
+  background-color: #43302b;
   padding: 4.2rem 4.2rem 2rem 4.2rem;
   border-radius: 11px;
   box-shadow: 0 2rem 1rem 0 rgba(0, 0, 0, 0.1);
