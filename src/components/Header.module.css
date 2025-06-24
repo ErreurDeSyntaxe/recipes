@@ -1,0 +1,53 @@
+.headerTitle {
+  font-size: 6.1rem;
+  text-align: center;
+  color: #43302b;
+  margin-top: 4.8rem;
+}
+
+.headerImg {
+  max-width: 72rem;
+  margin: 4.8rem auto;
+  border-radius: 11px;
+
+  display: block;
+}
+
+.headerQuotationContainer {
+  display: block;
+  max-width: 90rem;
+  margin: 0 auto;
+
+  position: relative;
+}
+
+.headerQuotation {
+  padding: 3.6rem;
+  background-color: #43302b;
+  border-radius: 11px;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.headerQuotation::before {
+  content: '\201C';
+  font-size: 6.5rem;
+  position: absolute;
+  top: 1rem;
+}
+.headerQuotation::after {
+  content: '\201D';
+  font-size: 6.5rem;
+  position: absolute;
+  bottom: 4rem;
+  transform: translateX(1rem);
+}
+
+.headerQuotationAuthor {
+  text-align: right;
+  margin-right: 1.6rem;
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #5f6067;
+}
