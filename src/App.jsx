@@ -1,31 +1,20 @@
-import { Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
-import Header from './components/Header';
-import About from './components/About';
-import Footer from './components/Footer';
-import Recipes from './components/Recipes';
-
-import Hardships from './components/recipes/Hardships';
-import Death from './components/recipes/Death';
-import Evil from './components/recipes/Evil';
-import Worry from './components/recipes/Worry';
+import Homepage from './components/pages/Homepage';
+import Hardships from './components/pages/Hardships';
+import Evil from './components/pages/Evil';
+import Worry from './components/pages/Worry';
+import Death from './components/pages/Death';
 
 function App() {
   return (
-    <>
-      <Hardships />
-      <Evil />
-      <Worry />
-      <Death />
-
-      {/* <Header />
-
-      <Recipes />
-
-      <About />
-
-      <Footer /> */}
-    </>
+    <Routes>
+      <Route index element={<Homepage />} />
+      <Route path="hardships" element={<Hardships />} />
+      <Route path="evil" element={<Evil />} />
+      <Route path="worry" element={<Worry />} />
+      <Route path="death" element={<Death />} />
+    </Routes>
   );
 }
 
