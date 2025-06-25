@@ -1,0 +1,16 @@
+.recipesHeader {
+  font-size: 3.1rem;
+  text-align: center;
+  margin: 4.8rem 0;
+  color: #43302b;
+}
+.recipesContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 6.4rem;
+
+  max-width: 90rem;
+  padding: 3.2rem;
+  margin: 0 auto 6.4rem;
+}

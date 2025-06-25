@@ -1,0 +1,65 @@
+.recipeCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #43302b;
+  border-radius: 11px;
+  padding: 2.4rem;
+  box-shadow: 0 2rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+.cardHeading {
+  font-size: 3.9rem;
+  margin: 2rem 0;
+}
+.cardText {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+.cardText:last-of-type {
+  margin-bottom: 1rem;
+}
+.cardLink {
+  display: grid;
+}
+.cardImg,
+.cardImgHidden {
+  display: block;
+  grid-row: 1 / -1;
+  grid-column: 1 / -1;
+
+  max-width: 20rem;
+  margin: 1.6rem 0;
+  border-radius: 11px;
+
+  transition: all 650ms;
+}
+.cardImgHidden {
+  opacity: 0;
+}
+.cardImg:hover {
+  opacity: 0;
+}
+.cardImgHidden:hover {
+  opacity: 1;
+}
+.cardList {
+  list-style: none;
+  width: 60%;
+
+  line-height: 1.6;
+}
+.listItem {
+  font-size: 1.8rem;
+}
+.itemIcon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+}
+.itemIconSmall {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+
+  font-size: 1.4rem;
+}

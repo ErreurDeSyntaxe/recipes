@@ -1,0 +1,62 @@
+{
+  "recipes": [
+    {
+      "title": "Against Hardships",
+      "img1": "stoic-hardship.jpg",
+      "alt1": "A man down on his luck",
+      "img2": "hardships-recipe-cut.jpg",
+      "alt2": "A climber atop a high summit",
+      "para1": "The vicissitudes of life will inevitably come knocking. It is useless to hope for an easy life.",
+      "para2": "Instead, follow this recipe if you face any of the following:",
+      "listIcon": "\u2660",
+      "iconSize": "large",
+      "ingredients": ["loss", "poverty", "illness", "failure"]
+    },
+    {
+      "title": "Against Evil",
+      "img1": "stoic-evil.jpg",
+      "alt1": "An evil-looking clown laughing crazily",
+      "img2": "evil-recipe-cut.jpg",
+      "alt2": "An old teacher smiling kindly",
+      "para1": "Evil deeds are perpetrated by people from all walks of life. It is fruitless to hope to avoid them.",
+      "para2": "Instead, follow this recipe if you face any of the following:",
+      "listIcon": "\u2623",
+      "iconSize": "small",
+      "ingredients": ["ignorance", "wickedness", "carelessness", "jealousy"]
+    },
+    {
+      "title": "Against Worry",
+      "img1": "stoic-worry.jpg",
+      "alt1": "A woman clasping her hands in front of her mouth and stares in fear",
+      "img2": "worry-recipe-cut.jpg",
+      "alt2": "A happy girl running",
+      "para1": "The future might or might not come for you. It is pointless to fret over it or try to prevent it.",
+      "para2": "Instead, follow this recipe if you dread the following:",
+      "listIcon": "\u2622",
+      "iconSize": "small",
+      "ingredients": [
+        "the coming days",
+        "the coming weeks",
+        "the coming months",
+        "the coming years"
+      ]
+    },
+    {
+      "title": "Against Death",
+      "img1": "stoic-death.jpg",
+      "alt1": "A crowned human skull symbolizing death",
+      "img2": "death-recipe-cut.jpg",
+      "alt2": "The four seasons symbolizing a full life",
+      "para1": "Death is an integral part of life. It is the final duty of any and all living things. It is wasteful to dread it.",
+      "para2": "Instead, follow this recipe if you fear the following:",
+      "listIcon": "\u2625",
+      "iconSize": "small",
+      "ingredients": [
+        "returning to dust",
+        "resting in peace",
+        "kicking the bucket",
+        "death"
+      ]
+    }
+  ]
+}
