@@ -1,0 +1,55 @@
+.recipeContainer {
+  color: #43302b;
+  padding: 4rem 4rem 0 4rem;
+}
+.headerText {
+  font-size: 6.1rem;
+  text-align: center;
+}
+.headerImg {
+  max-width: 70rem;
+  margin: 4.8rem auto;
+  display: block;
+  border-radius: 11px;
+}
+.subHeader {
+  font-size: 3.6rem;
+  margin-bottom: 2rem;
+}
+.philosophy,
+.recipe {
+  font-size: 2.5rem;
+  padding: 4.2rem;
+  margin-bottom: 4.8rem;
+  background-color: #8b2f16;
+  border-radius: 11px;
+
+  box-shadow: 0 2rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+.paragraph {
+  margin-top: 2rem;
+  line-height: 1.4;
+}
+.ingredients {
+  list-style: none;
+  line-height: 1.4;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
+.steps {
+  list-style: upper-roman;
+  line-height: 1.4;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
+.result {
+  max-width: 54rem;
+  margin: 2.4rem auto;
+  display: block;
+  border-radius: 11px;
+}
+.btnHome {
+  cursor: pointer;
+
+  /* background-color: #82a155; */
+}

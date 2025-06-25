@@ -1,62 +1,126 @@
 {
   "recipes": [
     {
-      "title": "Against Hardships",
-      "img1": "stoic-hardship.jpg",
-      "alt1": "A man down on his luck",
-      "img2": "hardships-recipe-cut.jpg",
-      "alt2": "A climber atop a high summit",
-      "para1": "The vicissitudes of life will inevitably come knocking. It is useless to hope for an easy life.",
-      "para2": "Instead, follow this recipe if you face any of the following:",
+      "header": {
+        "text": "Against Hardships",
+        "img": "hardship.jpg",
+        "alt": "A tall summit"
+      },
+      "text": {
+        "para1": "According to Marcus Aurelius we should not fear external hardships such as pain, death, poverty, or the various challenges of the human condition. Instead, our primary fear should be abdicating moral responsibility and falling short of being a complete human being.",
+        "para2": "He acknowledges that negative events and adversities are inevitable in life. Marcus advises against futile efforts such as praying for negative events not to happen. He suggests accepting that these challenges will occur because nothing can be done to prevent them. The focus, according to Marcus, should be on how to react to these events. When adversity comes, Marcus Aurelius encourages a Stoic response. He advises against complaining and instead advocates for action and endurance. He reminds us that individuals can control their reactions to events, even if they can’t control the events themselves."
+      },
+      "ingredients": [
+        "Acceptance",
+        "Wisdom",
+        "Courage",
+        "Temperance",
+        "Justice"
+      ],
       "listIcon": "\u2660",
-      "iconSize": "large",
-      "ingredients": ["loss", "poverty", "illness", "failure"]
+      "steps": [
+        "Encounter harships",
+        "Determine what can be done",
+        "Do what can and must be done",
+        "Follow the four virtues"
+      ],
+      "result": {
+        "img": "hardships-recipe.jpg",
+        "alt": "A climber atop a tall summit"
+      }
     },
     {
-      "title": "Against Evil",
-      "img1": "stoic-evil.jpg",
-      "alt1": "An evil-looking clown laughing crazily",
-      "img2": "evil-recipe-cut.jpg",
-      "alt2": "An old teacher smiling kindly",
-      "para1": "Evil deeds are perpetrated by people from all walks of life. It is fruitless to hope to avoid them.",
-      "para2": "Instead, follow this recipe if you face any of the following:",
+      "header": {
+        "text": "Against Evil",
+        "img": "evil.jpg",
+        "alt": "An evil-looking herd of cat-like monsters"
+      },
+      "text": {
+        "para1": "Marcus Aurelius acknowledges the existence of what he refers to as 'evil' or 'bad' people, asserting that they are simply part of the universe. He discourages the idea of expecting the world not to present these individuals and likens it to asking a vine to exist without thorns. The acknowledgement of bad people is woven into his understanding of the natural order, and he encourages looking inward when dealing with them.",
+        "para2": "Marcus believes in kindness and posits that people, when doing wrong, are often driven by ignorance rather than a deliberate desire to do harm. While he acknowledges the possibility of trying to teach these individuals, he also recognizes that it might not always be an option. The Stoic philosophy encourages acceptance of the uncontrollable aspects of life, including encounters with individuals deemed immoral or wicked. Marcus urges self-reflection and refraining from judgment, emphasizing that everyone, including himself, has faults."
+      },
+      "ingredients": [
+        "Acknowledgment that most wrongdoing stems from ignorance",
+        "Acknowledgment of your own ignorance",
+        "Wisdom",
+        "Courage",
+        "Temperance",
+        "Justice"
+      ],
       "listIcon": "\u2623",
-      "iconSize": "small",
-      "ingredients": ["ignorance", "wickedness", "carelessness", "jealousy"]
+      "steps": [
+        "Face vile acts",
+        "Determine what can be done",
+        "Do what can and must be done",
+        "Follow the four virtues"
+      ],
+      "result": {
+        "img": "evil-recipe.jpg",
+        "alt": "A teacher looking patiently at a boy"
+      }
     },
     {
-      "title": "Against Worry",
-      "img1": "stoic-worry.jpg",
-      "alt1": "A woman clasping her hands in front of her mouth and stares in fear",
-      "img2": "worry-recipe-cut.jpg",
-      "alt2": "A happy girl running",
-      "para1": "The future might or might not come for you. It is pointless to fret over it or try to prevent it.",
-      "para2": "Instead, follow this recipe if you dread the following:",
+      "header": {
+        "text": "Against Worry",
+        "img": "worry.jpg",
+        "alt": "A young girl stands in shallow water, looking at an ominous-looking shadow"
+      },
+      "text": {
+        "para1": "Marcus Aurelius advises against worrying about the future. The Stoic philosophy suggests that a wise and virtuous person lives in accordance with nature and does not fear external events such as pain, death, or poverty. He emphasizes the importance of focusing on moral responsibility and being a complete human being.",
+        "para2": "Since the the future is beyond one's control worrying about it is counterproductive and futile. Stoicism encourages individuals to concentrate on what they can control, such as their reactions to events, rather than expending energy on anxieties about uncertain future outcomes. The emphasis is on accepting the inevitability of certain events, including adversity and death, and facing them with courage and virtue when they occur."
+      },
+      "ingredients": [
+        "Acceptance of the inevitable future",
+        "Wisdom",
+        "Courage",
+        "Temperance",
+        "Justice"
+      ],
       "listIcon": "\u2622",
-      "iconSize": "small",
-      "ingredients": [
-        "the coming days",
-        "the coming weeks",
-        "the coming months",
-        "the coming years"
-      ]
+      "steps": [
+        "Consider possible future scenarios",
+        "Determine what can be done",
+        "Do what can and must be done",
+        "Fret not",
+        "Follow the four virtues"
+      ],
+      "result": {
+        "img": "worry-recipe.jpg",
+        "alt": "A joyful young girl runs in a small alley filled with plants, flowers, and trees"
+      }
     },
     {
-      "title": "Against Death",
-      "img1": "stoic-death.jpg",
-      "alt1": "A crowned human skull symbolizing death",
-      "img2": "death-recipe-cut.jpg",
-      "alt2": "The four seasons symbolizing a full life",
-      "para1": "Death is an integral part of life. It is the final duty of any and all living things. It is wasteful to dread it.",
-      "para2": "Instead, follow this recipe if you fear the following:",
-      "listIcon": "\u2625",
-      "iconSize": "small",
+      "header": {
+        "text": "Against Death",
+        "img": "death.jpg",
+        "alt": "The Grim Reaper holding a scythe"
+      },
+      "text": {
+        "para1": "In Meditations, Marcus Aurelius reflects on death as an inevitable and natural part of the human experience. He contemplates the transient nature of life, emphasizing that death is a universal fate that everyone must face. Rather than fearing death, Marcus Aurelius encourages a stoic acceptance of its inevitability, viewing it as a natural process in the cycle of existence.",
+        "para2": "He underscores the idea that dwelling on the fear of death is counterproductive and distracts from living a virtuous and meaningful life. Instead, he suggests focusing on the present moment, acting with integrity, and fulfilling one's responsibilities. For Marcus Aurelius, the acceptance of mortality becomes a catalyst for a life well-lived, urging individuals to make the most of their time and contribute positively to the world."
+      },
       "ingredients": [
-        "returning to dust",
-        "resting in peace",
-        "kicking the bucket",
-        "death"
-      ]
+        "Awareness of mortality",
+        "Commitment to virtuous living",
+        "Wisdom",
+        "Courage",
+        "Temperance",
+        "Justice"
+      ],
+      "listIcon": "\u2625",
+      "steps": [
+        "Be born",
+        "Observe death of plants, animals, and stars",
+        "Acknowledge the inevitability of death",
+        "Consider the weight and uselessness of the fear of death",
+        "Cast aside the fear of death",
+        "Live a meaningful, virtuous, and responsible life",
+        "Fulfill your last duty: death"
+      ],
+      "result": {
+        "img": "death-recipe.jpg",
+        "alt": "Illustration of spring, summer, fall, and winter"
+      }
     }
   ]
 }
