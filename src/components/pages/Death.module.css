@@ -1,7 +1,3 @@
-.recipeContainer {
-  color: #43302b;
-  padding: 4rem 4rem 0 4rem;
-}
 .headerText {
   font-size: 6.1rem;
   text-align: center;
@@ -47,9 +43,4 @@
   margin: 2.4rem auto;
   display: block;
   border-radius: 11px;
-}
-.btnHome {
-  cursor: pointer;
-
-  /* background-color: #82a155; */
 }

@@ -1,0 +1,19 @@
+.recipeContainer {
+  color: #43302b;
+  padding: 4rem 4rem 0 4rem;
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.btnHome {
+  cursor: pointer;
+
+  display: block;
+  width: fit-content;
+  margin: 0 auto 3rem;
+
+  padding: 1.5rem 3rem;
+  color: #fff;
+  background-color: #43302b;
+  border-radius: 7px;
+}

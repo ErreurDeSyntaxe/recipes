@@ -1,12 +1,15 @@
+import { Link } from 'react-router-dom';
+
 import recipes from '../../../data/recipes.json';
 import Footer from '../Footer';
+import sharedStyles from './SharedStyles.module.css';
 import styles from './Hardships.module.css';
 
 const hardships = recipes.recipes[0];
 
 function Hardships() {
   return (
-    <div className={styles.recipeContainer}>
+    <div className={sharedStyles.recipeContainer}>
       <header>
         <h2 className={styles.headerText}>{hardships.header.text}</h2>
         <img
@@ -46,7 +49,9 @@ function Hardships() {
         />
       </section>
 
-      <button className={styles.btnHome}>Home</button>
+      <Link to="/" className={sharedStyles.btnHome}>
+        Home
+      </Link>
 
       <Footer />
     </div>

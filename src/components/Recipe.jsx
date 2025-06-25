@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from './Recipe.module.css';
 
 function Recipe({ recipe }) {
@@ -6,7 +7,7 @@ function Recipe({ recipe }) {
       <p className={styles.cardHeading}>{recipe.title}</p>
       <p className={styles.cardText}>{recipe.para1}</p>
 
-      <a href="www.google.com" className={styles.cardLink}>
+      <Link to={recipe.link} className={styles.cardLink}>
         <img
           src={`./assets/${recipe.img1}`}
           alt={`./assets/${recipe.alt1}`}
@@ -17,7 +18,7 @@ function Recipe({ recipe }) {
           alt={`./assets/${recipe.alt2}`}
           className={styles.cardImgHidden}
         />
-      </a>
+      </Link>
       <p className={styles.cardText}>{recipe.para2}</p>
       <ul className={styles.cardList}>
         <li className={styles.listItem}>
