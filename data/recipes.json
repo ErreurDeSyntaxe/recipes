@@ -27,7 +27,8 @@
       "result": {
         "img": "hardships-recipe.jpg",
         "alt": "A climber atop a tall summit"
-      }
+      },
+      "link": "/hardships"
     },
     {
       "header": {
@@ -57,7 +58,8 @@
       "result": {
         "img": "evil-recipe.jpg",
         "alt": "A teacher looking patiently at a boy"
-      }
+      },
+      "link": "/evil"
     },
     {
       "header": {
@@ -87,7 +89,8 @@
       "result": {
         "img": "worry-recipe.jpg",
         "alt": "A joyful young girl runs in a small alley filled with plants, flowers, and trees"
-      }
+      },
+      "link": "/worry"
     },
     {
       "header": {
@@ -120,7 +123,8 @@
       "result": {
         "img": "death-recipe.jpg",
         "alt": "Illustration of spring, summer, fall, and winter"
-      }
+      },
+      "link": "/death"
     }
   ]
 }

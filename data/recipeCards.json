@@ -2,6 +2,7 @@
   "cards": [
     {
       "title": "Against Hardships",
+      "link": "/hardships",
       "img1": "stoic-hardship.jpg",
       "alt1": "A man down on his luck",
       "img2": "hardships-recipe-cut.jpg",
@@ -14,6 +15,7 @@
     },
     {
       "title": "Against Evil",
+      "link": "/evil",
       "img1": "stoic-evil.jpg",
       "alt1": "An evil-looking clown laughing crazily",
       "img2": "evil-recipe-cut.jpg",
@@ -26,6 +28,7 @@
     },
     {
       "title": "Against Worry",
+      "link": "/worry",
       "img1": "stoic-worry.jpg",
       "alt1": "A woman clasping her hands in front of her mouth and stares in fear",
       "img2": "worry-recipe-cut.jpg",
@@ -43,6 +46,7 @@
     },
     {
       "title": "Against Death",
+      "link": "/death",
       "img1": "stoic-death.jpg",
       "alt1": "A crowned human skull symbolizing death",
       "img2": "death-recipe-cut.jpg",
