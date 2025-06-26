@@ -7,7 +7,7 @@ import './index.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/recipes">
+    <BrowserRouter basename="/recipes/">
       <App />
     </BrowserRouter>
   </StrictMode>

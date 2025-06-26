@@ -1,4 +1,4 @@
-import marcusImg from '../../public/assets/marcus-aurelius.jpg';
+import marcusImg from '/src/assets/marcus-aurelius.jpg';
 import styles from './Header.module.css';
 
 function Header() {
