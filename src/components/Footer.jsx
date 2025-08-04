@@ -15,7 +15,7 @@ function Footer() {
         YouTube video. Images produced with MidJourney version 4.
       </span>{' '}
       Visit an identical-looking{' '}
-      <a className="link" href="./versions/vanilla.html">
+      <a className="link" href="../versions/vanilla.html">
         earlier version
       </a>
       .
